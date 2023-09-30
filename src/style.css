@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  @apply h-screen flex flex-col justify-between;
+}
+
+h1 {
+  @apply text-5xl text-blue-800;
+}
+
+.active-link {
+  @apply text-blue-600;
+}
